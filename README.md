@@ -38,5 +38,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Index
 
-[root](https://geor-ma.github.io/dev-notes/)
-[Test Page](https://geor-ma.github.io/dev-notes/test)
+* [root](https://geor-ma.github.io/dev-notes/)
+* [Test Page](https://geor-ma.github.io/dev-notes/test)

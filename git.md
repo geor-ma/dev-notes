@@ -253,11 +253,11 @@ git reflog refs/heads/master
 # keep all files except a file
 git filter-repo --path <file-name> --invert-paths
   
-  # check
-  git log --oneline
+# check
+git log --oneline
 ```
   
-> all history is rewritten, all users have to clone again.
+> entire history is rewritten, all users have to setup/clone again. ***Use as extreme measure***
   
 ### References
 

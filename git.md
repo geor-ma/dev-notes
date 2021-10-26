@@ -1,5 +1,9 @@
 # Git Notes
 
+### Notes
+- 
+
+### Commands
 ```bash
 
 # git on mac
@@ -34,6 +38,9 @@ git remote add origin https://github.com/repositoryname....
 # push to origin
 git push -u origin main
 
+# then on, use 
+git push
+
 git diff --staged
 git diff
 
@@ -54,4 +61,15 @@ git commit -am "commit message here"
 
 git log -2
 git log --oneline
+
+
+# more detail
+git log --stat
+git log --patch
+
+git log <SHA1>
+
+# show content of a git file
+git cat-file .git/..
+
 ```

@@ -1,7 +1,7 @@
 # Git Notes
 
 ### Notes
-- 
+- can do git init on folder with your files/code
 
 ### Commands
 ```bash

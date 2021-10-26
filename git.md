@@ -3,6 +3,7 @@
 ### Notes
 - can do git init on folder with already existing files/code
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
+- Staging area and index are same - available in .git/index
 
 ### Commands
 ```bash
@@ -43,10 +44,12 @@ git push -u origin main
 git push
 
 git diff --staged
+
+# compare working area to index/staging
 git diff
 
-# Unstage a file from staging area
-git reset HEAD <file>
+# compare index/staging with repository
+git diff --cached
 
 # Discard changes from working directory
 git checkout -- <file>
@@ -71,12 +74,15 @@ git log --patch
 git log <SHA1>
 
 # show content of a git file
-git cat-file .git/..
+git cat-file <commit hash>
+git cat-file -p <commit hash>
 
 git rm <file name>
 
 # untrack a file
 git rm --cached <file name>
+# OR
+git reset HEAD <file>
 
 git mv <file> <file>
 
@@ -87,15 +93,33 @@ git stash show
 # pops to working directory
 git stash pop 
 
-# reset selected commit to staging area
+#
+# reset moves the current branch to a commit.
+# https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
+#
+
+
+# credit - # https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
+# --soft does not change index or working folder. all the changes show up as changes to be committed with git status. Use this when you realize you've made some bad commits, but the work's all good - all you need to do is recommit it differently.
 git reset --soft <commit sha1>
 
-# selected commit to working directory
+# copies files from repo to index for a selected commit. Leaves working directory as it is.
+# mixed is the default option
 git reset <commit sha1> or git reset --mixed <commit sha1>
 
-# discard commit and reset to origin 
+# resets working area and staging/index with files from the git repository with selected commit
+git reset --hard <commit>
+
+# reset working and staging/index with all files from repo
+git reset --hard HEAD
+
+# reset local repo/working/staging with remote HEAD
 git reset --hard origin/<branch name>
 
+# Unstage a file from staging area. --mixed is default
+git reset HEAD <file> 
+
+# revert
 
 ```
 
@@ -103,3 +127,4 @@ git reset --hard origin/<branch name>
 
 - https://app.pluralsight.com/library/courses/how-git-works/table-of-contents
 - https://app.pluralsight.com/library/courses/master-git/table-of-contents
+- https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do

@@ -237,6 +237,8 @@ git revert <commit sha1 to revert>
 git log --graph --oneline --decorate
 ```
 
+> Use revert instead of reset if commits are published to shared remote repo. Makes it harder for others to merge changes. Let people know ahead and allow them to merge before reset or revert is done and published. Then let everyone get the latest after your revert/reset changes are published.
+  
 ### Interactive rebases
   
 > use to edit/refactor the history of commits from origin/master before publishing to remote. It is better to use only on local unpublished commits

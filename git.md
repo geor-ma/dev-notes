@@ -52,5 +52,6 @@ git add <file>
 # add and commit files in one command (-a) with (-m) message
 git commit -am "commit message here"
 
-
+git log -2
+git log --oneline
 ```

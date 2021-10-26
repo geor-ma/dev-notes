@@ -80,6 +80,13 @@ git rm --cached <file name>
 
 git mv <file> <file>
 
+git stash
+git stash list
+git stash show
+
+# pops to working directory
+git stash pop 
+
 
 
 

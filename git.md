@@ -43,6 +43,15 @@ git push -u origin main
 # then on, use 
 git push
 
+#
+# amend - make changes to current commit
+# best practice is not to change history once pushed to shared repo (remote repo) as someone 
+# could have got the latest. this messes up others history
+#
+git commit --amend
+
+# 
+
 git diff --staged
 
 # compare working area to index/staging

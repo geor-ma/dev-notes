@@ -225,7 +225,7 @@ git restore --staged <file>
 
 ### revert
 
-- reverse of a commit. then, it does a new commit the changes. resolve conflicts if any
+- reverse of a commit. cancels out a commit. then, it does a new commit the changes. resolve conflicts if any
 - all commit history maintained. 
 - It can only change changes. It cannot revert structural changes like merge
 - [Reference](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)

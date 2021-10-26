@@ -190,6 +190,7 @@ git stash pop
 ### reset
 
 > reset moves the current branch to a commit.
+
 > ref/credit: https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
 
 ```bash

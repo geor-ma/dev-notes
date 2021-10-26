@@ -80,10 +80,9 @@ git commit -am "commit message here"
 
 git log -2
 git log --oneline
-
+git log --graph --decorate --oneline
 
 # more detail
-git log --graph --decorate --oneline
 git log --stat
 git log --patch
 
@@ -169,6 +168,15 @@ git reset HEAD <file>
 git restore --staged <file>
 
 # revert
+
+# Interactive rebases - use to edit/refactor the history of commits from origin/master before publishing to remote
+# better to use only on local unpublished commits
+git rebase -i origin/master
+
+
+# Reference Logs on local folder, branches, commits etc.
+git reflog HEAD 
+git reflog refs/heads/master
 
 ```
 

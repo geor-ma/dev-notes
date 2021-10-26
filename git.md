@@ -1,7 +1,7 @@
 # Git Notes
 
 ### Notes
-- can do git init on folder with your files/code
+- can do git init on folder with already existing files/code
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
 
 ### Commands
@@ -87,7 +87,14 @@ git stash show
 # pops to working directory
 git stash pop 
 
+# reset selected commit to staging area
+git reset --soft <commit sha1>
 
+# selected commit to working directory
+git reset <commit sha1> or git reset --mixed <commit sha1>
+
+# discard commit and reset to origin 
+git reset --hard origin/<branch name>
 
 
 ```

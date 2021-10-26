@@ -72,4 +72,14 @@ git log <SHA1>
 # show content of a git file
 git cat-file .git/..
 
+git rm <file name>
+
+# untrack a file
+git rm --cached <file name>
+
+git mv <file> <file>
+
+
+
+
 ```

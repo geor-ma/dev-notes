@@ -2,6 +2,9 @@
 
 ```bash
 
+# git on mac
+brew install git
+
 # help
 man git
 git help

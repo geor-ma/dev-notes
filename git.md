@@ -228,7 +228,8 @@ git restore --staged <file>
 - reverse of a commit. then, it does a new commit the changes. resolve conflicts if any
 - all commit history maintained. 
 - It can only change changes. It cannot revert structural changes like merge
-
+- [Reference](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
+  
 ```bash
 git revert <commit sha1 to revert>
   
@@ -271,3 +272,4 @@ git log --oneline
 - https://app.pluralsight.com/library/courses/how-git-works/table-of-contents
 - https://app.pluralsight.com/library/courses/master-git/table-of-contents
 - https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
+- https://opensource.com/article/18/6/git-reset-revert-rebase-commands

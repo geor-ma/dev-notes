@@ -2,6 +2,7 @@
 
 ### Notes
 - can do git init on folder with your files/code
+- [Visualizing Git](https://git-school.github.io/visualizing-git/)
 
 ### Commands
 ```bash

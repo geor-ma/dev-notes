@@ -224,9 +224,16 @@ git restore --staged <file>
   ```
 
 ### revert
-  
-```bash
 
+- reverse of a commit. then, it does a new commit the changes. resolve conflicts if any
+- all commit history maintained. 
+- It can only change changes. It cannot revert structural changes like merge
+
+```bash
+git revert <commit sha1 to revert>
+  
+# check
+git log --graph --oneline --decorate
 ```
 
 ### Interactive rebases

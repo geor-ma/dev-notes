@@ -119,6 +119,9 @@ git reset --hard origin/<branch name>
 # Unstage a file from staging area. --mixed is default
 git reset HEAD <file> 
 
+# restore command to unstage (copy file from repo to index only). similar to git reset --mixed <commit>
+git restore --staged <file>
+
 # revert
 
 ```

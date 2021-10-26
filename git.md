@@ -51,6 +51,12 @@ git diff
 # compare index/staging with repository
 git diff --cached
 
+# compare commits
+git diff HEAD HEAD~2
+
+# compare branches
+git diff branch1 branch2
+
 # Discard changes from working directory
 git checkout -- <file>
 
@@ -68,10 +74,41 @@ git log --oneline
 
 
 # more detail
+git log --graph --decorate --oneline
 git log --stat
 git log --patch
 
 git log <SHA1>
+git log HEAD~5..HEAD^ --oneline
+
+# branch comparison of commits
+git log branch1..main --oneline
+
+git help log
+
+git log --grep apples --oneline
+
+git help grep
+
+# blame
+git blame <file name>
+
+# show
+git show <commit sha1>/<branch>/HEAD
+
+# show parent commit of HEAD
+git show HEAD^
+
+# show parent of parent commit of head
+git show HEAD^^ or git show HEAD~2
+
+# HEAD~2 = go to head and then to the 2nd commit from the HEAD (ie 3rd commit from head)
+git show HEAD~2
+
+# show details of commit - go to head and then the 2nd commit from the HEAD, then pick 2nd parent
+git show HEAD~2^2
+
+git show HEAD@{"1 month ago"}
 
 # show content of a git file
 git cat-file <commit hash>

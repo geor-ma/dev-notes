@@ -245,7 +245,20 @@ git reflog HEAD
 git reflog refs/heads/master
 
 ```
-
+### Remove a large file or password or commits from git history
+  
+> use filtering tool 'git filter-repo' from (https://github.com/newren/git-filter-repo/)
+  
+```bash
+# keep all files except a file
+git filter-repo --path <file-name> --invert-paths
+  
+  # check
+  git log --oneline
+```
+  
+> all history is rewritten, all users have to clone again.
+  
 ### References
 
 - https://app.pluralsight.com/library/courses/how-git-works/table-of-contents

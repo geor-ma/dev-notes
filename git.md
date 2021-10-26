@@ -5,18 +5,25 @@
 - [Visualizing Git](https://git-school.github.io/visualizing-git/)
 - Staging area and index are same - available in .git/index
 
-### Commands
+### Useful Commands
+
+
+### git on mac
+
 ```bash
-
-# git on mac
 brew install git
+```
 
-# help
+### git help
+```bash
 man git
 git help
 git help config
+```
 
-# list all config
+### config
+
+```bash
 git config --list
 
 git config user.name
@@ -28,8 +35,11 @@ git config --global user.email "user@name.com"
 # local folder config
 git config  user.name "user name"
 git config user.email "user@name.com"
+```
 
-# git init
+### git initialization and setup remote
+
+```bash
 git init
 git add README.md
 git commit -m "commit message"
@@ -42,16 +52,22 @@ git push -u origin main
 
 # then on, use 
 git push
+```
 
-#
-# amend - make changes to current commit
+
+### amend - make changes to current commit
+
+```bash
 # best practice is not to change history once pushed to shared repo (remote repo) as someone 
 # could have got the latest. this messes up others history
 #
 git commit --amend
 
-# 
+```
 
+### Diff
+
+```bash
 git diff --staged
 
 # compare working area to index/staging
@@ -66,18 +82,35 @@ git diff HEAD HEAD~2
 # compare branches
 git diff branch1 branch2
 
-# Discard changes from working directory
+```
+
+### Discard changes from working directory
+
+```bash
 git checkout -- <file>
+```
 
 
+### Status
+
+```bash
 git status --short
+```
 
+
+### Git add, commit
+
+```bash
 #add to staging area
 git add <file>
 
 # add and commit files in one command (-a) with (-m) message
 git commit -am "commit message here"
+```
 
+### Log
+
+```bash
 git log -2
 git log --oneline
 git log --graph --decorate --oneline
@@ -97,8 +130,11 @@ git help log
 git log --grep apples --oneline
 
 git help grep
+```
 
-# blame
+### Get commit information
+
+```bash
 git blame <file name>
 
 # show
@@ -117,34 +153,47 @@ git show HEAD~2
 git show HEAD~2^2
 
 git show HEAD@{"1 month ago"}
+```
 
-# show content of a git file
+### show content of a git file
+
+```bash
 git cat-file <commit hash>
 git cat-file -p <commit hash>
+```
 
+### Remove/untrack file from git
+
+```bash
 git rm <file name>
 
-# untrack a file
+# untrack file
 git rm --cached <file name>
 # OR
 git reset HEAD <file>
 
+# rename a file in git
 git mv <file> <file>
+```
 
+### Stash
+
+```bash
 git stash
 git stash list
 git stash show
 
 # pops to working directory
 git stash pop 
+```
 
-#
-# reset moves the current branch to a commit.
-# https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
-#
+### reset
 
+> reset moves the current branch to a commit.
+> ref/credit: https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
 
-# credit - # https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do
+```bash
+
 # --soft does not change index or working folder. all the changes show up as changes to be committed with git status. Use this when you realize you've made some bad commits, but the work's all good - all you need to do is recommit it differently.
 git reset --soft <commit sha1>
 
@@ -163,18 +212,34 @@ git reset --hard origin/<branch name>
 
 # Unstage a file from staging area. --mixed is default
 git reset HEAD <file> 
+```
 
-# restore command to unstage (copy file from repo to index only). similar to git reset --mixed <commit>
+### restore
+
+> restore command to unstage (copy file from repo to index only). similar to git reset --mixed <commit>
+  
+```bash
 git restore --staged <file>
+  ```
 
-# revert
+### revert
+  
+```bash
 
-# Interactive rebases - use to edit/refactor the history of commits from origin/master before publishing to remote
-# better to use only on local unpublished commits
+```
+
+### Interactive rebases
+  
+> use to edit/refactor the history of commits from origin/master before publishing to remote. It is better to use only on local unpublished commits
+  
+```bash
 git rebase -i origin/master
+```
 
 
-# Reference Logs on local folder, branches, commits etc.
+### Reference Logs on local folder, branches, commits etc.
+
+```bash
 git reflog HEAD 
 git reflog refs/heads/master
 

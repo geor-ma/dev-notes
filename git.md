@@ -98,3 +98,8 @@ git reset --hard origin/<branch name>
 
 
 ```
+
+### References
+
+- https://app.pluralsight.com/library/courses/how-git-works/table-of-contents
+- https://app.pluralsight.com/library/courses/master-git/table-of-contents

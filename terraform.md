@@ -2,7 +2,7 @@
 
 
 ## Notes
-
+- https://www.terraform.io/docs/internals/debugging.html log levels are TRACE, DEBUG, INFO, WARN or ERROR to change the verbosity of the logs
 
 ## Useful commands
 

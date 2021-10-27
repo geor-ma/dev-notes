@@ -271,6 +271,8 @@ git log --oneline
   
 ### References
 
+- https://guides.github.com/introduction/flow/
+- https://nvie.com/posts/a-successful-git-branching-model/
 - https://app.pluralsight.com/library/courses/how-git-works/table-of-contents
 - https://app.pluralsight.com/library/courses/master-git/table-of-contents
 - https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do

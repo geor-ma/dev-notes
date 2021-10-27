@@ -271,6 +271,7 @@ git log --oneline
   
 ### References
 
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 - https://guides.github.com/introduction/flow/
 - https://nvie.com/posts/a-successful-git-branching-model/
 - https://app.pluralsight.com/library/courses/how-git-works/table-of-contents

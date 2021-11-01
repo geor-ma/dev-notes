@@ -4,7 +4,7 @@
 ## Notes
 - Debugging log levels are TRACE, DEBUG, INFO, WARN or ERROR to change the verbosity of the logs](https://www.terraform.io/docs/internals/debugging.html)
 - resource lifecycle rules](https://www.terraform.io/docs/language/meta-arguments/lifecycle.html)
--   create_before_destroy, prevent_destroy, ignore_changes
+  -  create_before_destroy, prevent_destroy, ignore_changes
 
 ## Useful commands
 

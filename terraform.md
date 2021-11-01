@@ -11,6 +11,8 @@
 
 ## Useful commands
 
+[TF commands reference](https://www.terraform.io/docs/cli/index.html)
+
 ```bash
 
 terraform -help

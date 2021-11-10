@@ -34,3 +34,6 @@ terraform workspace select <tf workspace name>
 #delete all states
 terraform state list | xargs -n 1 terraform state rm
 ```
+
+### References
+- https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet

@@ -61,6 +61,36 @@ func main() {
 
 ```
 
+### iota
+
+```
+package main
+
+import (
+	"fmt"
+)
+
+const (
+	first  = iota + 6 // iota starts with 0
+	second = iota     // iota automatically increments by 1
+	third             // automatically adjusted - output is 2
+)
+
+const (
+	fourth = iota //resets back to 0
+)
+
+func main() {
+
+	fmt.Println(first, second, third, fourth)
+
+}
+
+
+//output
+6 1 2 0
+```
+
 ### References
 - https://github.com/a8m/golang-cheat-sheet
 - https://devhints.io/go

@@ -21,6 +21,12 @@ func main() {
 	fmt.Println(ptr, *ptr)
 }
 
+// output
+Arthur
+addressof operator & 0xc0000a6210
+0xc0000a6210 Arthur
+0xc0000a6210 Pat
+
 ```
 ### References
 - https://github.com/a8m/golang-cheat-sheet

@@ -119,7 +119,8 @@ func main() {
 ```
 
 ### References
-- [go cheat sheet](https://github.com/a8m/golang-cheat-sheet)
-- [go cheat sheet](https://devhints.io/go)
-- [gobyexample](https://gobyexample.com/)
+- [go.dev](https://go.dev)
+- [go cheatsheet 1](https://github.com/a8m/golang-cheat-sheet)
+- [go cheatsheet 2](https://devhints.io/go)
+- [go by example](https://gobyexample.com/)
 - [go playground](https://go.dev/blog/playground)

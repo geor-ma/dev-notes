@@ -29,6 +29,33 @@ addressof operator & 0xc0000a6210
 
 ```
 
+```
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	p := getPointer()
+	fmt.Println(p, *p) // output - 0xc00010a000 234
+	
+	a := new(int)
+	*a = 123
+	fmt.Println(a, *a) // 0xc00010a008 123
+}
+
+func getPointer() (*int){
+	a := 234
+	return &a
+}
+
+// output
+0xc00010a000 234
+0xc00010a008 123
+
+```
+
 ### constants
 
 ```

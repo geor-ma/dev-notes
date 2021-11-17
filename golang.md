@@ -118,6 +118,18 @@ func main() {
 6 1 2 0
 ```
 
+### Slices
+
+```
+# Delete from a slice
+
+for i, v := range sliceX {
+	// code here ....
+	sliceX = append(sliceX[:i], sliceX[i+1:]...) // where i is the index of sliceX in a for i, v := range sliceX {}
+	// code here ...
+}
+```
+
 ### References
 - [go.dev](https://go.dev)
 - [go cheatsheet 1](https://github.com/a8m/golang-cheat-sheet)

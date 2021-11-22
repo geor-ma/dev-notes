@@ -131,6 +131,7 @@ for i, v := range sliceX {
 ```
 
 ### References
+- [run go](https://medium.com/rungo)
 - [go.dev](https://go.dev)
 - [go cheatsheet 1](https://github.com/a8m/golang-cheat-sheet)
 - [go cheatsheet 2](https://devhints.io/go)

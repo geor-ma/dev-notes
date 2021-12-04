@@ -45,7 +45,7 @@ doc version: 0.4
     - 
 
 ### Onboarding engineers
-- Hire only good engineers who can solve problems and build stuff with right toolsets
+- Hire self motivated engineers who can solve problems and build stuff with right toolsets for the job
 - Initial Pair programming until the engineer can run with it
 
 

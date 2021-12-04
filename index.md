@@ -1,5 +1,6 @@
 # Index
 
+- [Tech Operational Excellence](./tech-operational-excellence)
 - [git](./git.md)
 - [firebase](./firebase.md)
 - [terraform](./terraform.md)

@@ -1,10 +1,13 @@
-# Operation excellence in technology
+# Enabling businesses to thrive with Cloud Computing
 
-### Tech stack and architecture - Goto strategy 
+
+### Operation excellence in technology - Goto strategy 
  
+  
     - business needs to change rapidly as per market needs. Technology should back it up in a sustainable and fast way.
       - simple, agile and maintainable code base.
       - minium automated process for sustainbility and rapid releases
+    - leadership set the vision and enable engineers to build them
     - public cloud with Infrastructure as service. e.g. No VMs or anything that needs specialized infrastructure management.
     - cloud-native, 
     - microservices, 

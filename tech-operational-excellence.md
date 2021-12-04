@@ -2,7 +2,7 @@
 
 ### Tech stack and architecture - Goto strategy 
  
-    - business needs to change rapidly as per market needs. Technology should be able to deliver value in a sustainable and fast way.
+    - business needs to change rapidly as per market needs. Technology should back it up in a sustainable and fast way.
       - simple, agile and maintainable code base.
       - minium automated process for sustainbility and rapid releases
     - public cloud with Infrastructure as service. e.g. No VMs or anything that needs specialized infrastructure management.

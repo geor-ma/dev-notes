@@ -1,5 +1,6 @@
 # Enabling businesses to thrive with Cloud Computing
 
+doc version: 0.4
 
 ### Operation excellence in technology - Goto strategy 
  

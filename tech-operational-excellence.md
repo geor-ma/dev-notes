@@ -9,7 +9,7 @@ doc version: 0.4
       - simple, agile and maintainable code base.
       - minium automated process for sustainbility and rapid releases
     - leadership set the vision and enable engineers to build them
-    - public cloud with Infrastructure as service. e.g. No VMs or anything that needs specialized infrastructure management.
+    - public cloud with Platform as service (PaaS). e.g. No VMs or anything that needs specialized infrastructure management.
     - cloud-native, 
     - microservices, 
     - nail it and then scale it

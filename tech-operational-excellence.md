@@ -24,7 +24,7 @@ doc version: 0.4
 
 ### Team composition and Skillsets
 
-  - hire software engineers who can do both infrastructure as code and build software. 
+  - hire software engineers who can do both infrastructure as code and build software. Pulumi allows IaC through many programming languages that engineers are familiar with.
     - Dont worry about the specific skillsets - hire engineers with right attitude and mindset. 
     - They build and deliver in a rapid changing business and technology changes 
   - goto skillsets and tools - 

@@ -1,6 +1,6 @@
 # Typescript notes
 
-### Destructuring Arrays
+### Destructuring Arrays - i.e. let [a, b, c] = anArray
 
 ```
 let anArray: string[] = ['a', 'b', 'c'];
@@ -9,7 +9,7 @@ let [a, b] = anArray; //only first 2
 
 ```
 
-### Destructuring objects
+### Destructuring objects - i.e. let { aField, bField, cField } = anObject
 
 ```
 let anObject = {

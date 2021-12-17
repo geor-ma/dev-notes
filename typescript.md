@@ -25,4 +25,14 @@ let var3: string = anObject.cField;
 //OR use object destructuring - same field names
 let { aField, bField, cField } = anObject
 
+//OR with different fieldNames
+let { aField: newAField, bField: newBField, cField: newCField } = anObject
+console.log(newAField);
+
+
+//rest parameter - rest of the parameters
+function someFunction([arr1, arr2, ...restOfTheArray]: arr[]){
+}
+someFunction(['a', 'b', 'c', 'd']);
+
 ```

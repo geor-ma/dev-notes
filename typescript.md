@@ -1,6 +1,6 @@
 # Typescript notes
 
-### Destructuring Arrays - i.e. let [a, b, c] = anArray
+### Destructuring Arrays - let [a, b, c] = anArray
 
 ```
 let anArray: string[] = ['a', 'b', 'c'];
@@ -9,7 +9,7 @@ let [a, b] = anArray; //only first 2
 
 ```
 
-### Destructuring objects - i.e. let { aField, bField, cField } = anObject
+### Destructuring objects -  let { aField, bField, cField } = anObject
 
 ```
 let anObject = {
@@ -36,3 +36,17 @@ function someFunction([arr1, arr2, ...restOfTheArray]: arr[]){
 someFunction(['a', 'b', 'c', 'd']);
 
 ```
+
+### Spread operator - arrays and function parameter (...)
+
+```
+// arrays
+let anArray = [4, 3, 2];
+let anotherArray = [ 82, 23, ...anArray];
+
+//function
+let yetAnotherArray = [1,5,6] ;
+anotherArray.push(...yetAnotherArray); // array's push function is push(...items)
+```
+
+### Tuples

@@ -71,3 +71,20 @@ let something: string | int | null | undefined;
 ### Intersection
 
 let someType: aType & bType
+
+### Parallel Tasks
+
+```
+  let tasks: Promise<void>[] = [
+      aFunction([parameters]),
+      anotherFunction([parameters]),
+  ];
+
+   
+  if ([some condition]) {
+    tasks.push(
+      anotherFunction()
+    );
+  }
+  await Promise.all(tasks);
+```

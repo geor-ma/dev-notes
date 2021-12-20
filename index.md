@@ -7,4 +7,5 @@
 - [docker](./docker-notes.md)
 - [cypress](./cypress.md)
 - [golang](./golang.md)
+- [typescript](./typescript.md)
 - [root](https://geor-ma.github.io/dev-notes/)

@@ -76,15 +76,17 @@ let someType: aType & bType
 
 ```
   let tasks: Promise<void>[] = [
-      aFunction([parameters]),
-      anotherFunction([parameters]),
+      aFunction([some parameters]),
+      anotherFunction(),
   ];
 
    
   if ([some condition]) {
     tasks.push(
-      anotherFunction()
+      yetAnotherFunction()
     );
   }
+  
+  //execute all tasks in parallel and await
   await Promise.all(tasks);
 ```

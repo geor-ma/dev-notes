@@ -50,3 +50,13 @@ anotherArray.push(...yetAnotherArray); // array's push function is push(...items
 ```
 
 ### Tuples
+let aTuple: [int, string] = [ 5, "abcd"];
+let firstValue = aTuple[0];
+let secondValue = aTuple[1];
+
+// OR
+interface KeyValuePair<K, V> extends Array<K | V> {
+  0: L;
+  1: V;
+}
+let aTuple: KeyValuePair<string, int> = ['a string', 12];
